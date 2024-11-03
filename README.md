@@ -16,31 +16,32 @@ A simple command-line expense tracker that allows you to add, view, and delete e
 ## Installation
 
 1. Clone the repository (if it's hosted on a version control platform) or download the script.
-   ```bash
+   
    git clone <repository-url>
    cd <project-directory>
-   ```
 
-2. (Optional) Set up a virtual environment:
-   ```bash
+3. (Optional) Set up a virtual environment:
+   
    python3 -m venv env
    source env/bin/activate  # On Windows use `env\Scripts\activate`
-   ```
 
 ## Usage
 
 1. Run the script:
-   ```bash
+   
    python expense_tracker.py
-   ```
+   
 
 2. Follow the menu prompts to add, view, or delete expenses.
 
 ## Example Menu
 
-```plaintext
+
 1. Add Expense
 2. View Expenses
 3. Delete Expense
 4. Exit
-```
+   
+## Error Handling
+
+   Handles invalid inputs, non-integer options, and negative expense amounts.
